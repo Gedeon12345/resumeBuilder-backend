@@ -154,6 +154,7 @@ const updateResume = async (req, res) => {
 // @desc    Delete a resume
 // @route   DELETE /api/resumes/:id
 // @access  Private
+
 // const deleteResume = async (req, res) => {
 //     try {
 //         const resume = await Resume.findOne({
@@ -228,7 +229,7 @@ const deleteResume = async (req, res) => {
     }
   };
 
-  // Helper: Extract Cloudinary public_id from URL
+//   Helper: Extract Cloudinary public_id from URL
 function extractPublicId(url) {
     try {
       const parts = url.split("/");
